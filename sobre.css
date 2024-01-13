@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@800&family=Teko:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #110e1b;
+    color: #FFF2E7;
+}
+html {
+    font-family: Inter;
+    font-weight: 500;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+
+nav {
+    background: #5c162e;
+    max-width: 1370px;
+    margin: auto;
+    padding: 24px 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.unismart {
+    font-family: Teko;
+    font-size: 32px;
+    font-weight: 600;
+}
+#menu {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    color: rgba(255, 242, 231, 0.50);
+    position: relative;
+    font-weight: 500;
+}
+#menu :hover {
+    color: #FFF2E7;
+}
+#github {
+    color: #FFF2E7;
+    font-weight: 600;
+}
+#titulo{
+    font-family: Montserrat;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    padding-left: 70px;
+    padding-right: 45px;
+    margin-left: 369px;
+    max-width: fit-content;
+}
+#paragrafo {
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 10px 55px;
+}
+hr {
+    width: 514.500px; 
+    margin: 3em auto; 
+    height:1px; 
+    border:0; 
+    background:#6a5acd;
+}
+footer {
+    width: 100%;
+}
+#rodape {
+    background: #5c162e;
+    max-width: 1366px;
+    margin: auto;
+    padding: 24px 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#lista_rodape li{
+    color: rgba(255, 242, 231, 0.50);
+    font-size: 14px;
+}
+#lista_rodape li:hover{
+    color: #FFF2E7;
+}
